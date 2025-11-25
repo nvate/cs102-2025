@@ -69,7 +69,7 @@ def generate_keypair(
 
     n = p * q
 
-    phi = (p - 1) * (q - 1)
+    phi = (p-1)*(q-1)
 
     # Choose an integer e such that e and phi(n) are coprime
     e = random.randrange(1, phi)
