@@ -124,7 +124,7 @@ def find_possible_values(
     >>> values == {'2', '5', '9'}
     True
     """
-    all_possible_values = ['1','2', '3', '4', '5', '6', '7', '8', '9']
+    all_possible_values = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
     for i in grid[pos[0]]:
         if i in all_possible_values:
             all_possible_values.remove(i)
